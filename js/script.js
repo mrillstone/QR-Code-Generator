@@ -46,7 +46,7 @@ const hideSpinner = () => {
 
 const clearUI = () => {
     qr.innerHTML = '';
-    const saveLink = document.getElementById('saveLink');
+    const saveLink = document.getElementById('save-link');
     if (saveLink) saveLink.remove();
 };
 
